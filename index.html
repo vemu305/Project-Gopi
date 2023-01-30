@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Demo</title>
+    <style>
+        .for_bg_img {
+            width: 500px;
+            height: 300px;
+            background-color: aqua;
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.t3RfEQCFp9QZg9EeyiGgpwHaE8&pid=Api&P=0);
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .the_whole_body {
+            background: #C6FFDD;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            ;
+            text-align: center;
+            justify-content: center;
+            font-family: "Trirong", serif;
+
+        }
+
+        .the_form {
+            width: 600px;
+            height: 370px;
+            margin: auto;
+            font-size: 20px;
+
+        }
+
+        .input_name {
+            padding: 50px;
+            margin: auto;
+            justify-content: space-between;
+        }
+
+        .list_itesm {
+            margin: auto;
+        }
+
+        .paragraph {
+            margin: 30px;
+        }
+
+        .button {
+            width: 300px;
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            height: 30px;
+            font-family: "Trirong", serif;
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="the_whole_body">
+    <!-- this is H1 tag -->
+    <h1><u><ion-icon name="camera-outline"></ion-icon> VEMU'S PHOTOGRAPHY</u></h1>
+    <!-- this is H2 -->
+    <h2>see your self beautiful</h2>
+    <br /><br />
+    <!-- div -->
+    <!-- backround image -->
+    <div class="for_bg_img">
+
+    </div>
+    <br /><br />
+    <!-- paragraph with anchor tag redirect into any website new tab. -->
+    <p>A photographic studio is often a business owned and represented by one or more photographers, possibly
+        accompanied by assistants and pupils, who create and sell their own and sometimes others’ photographs.
+        <br />
+        Since the early years of the 20th century the business functions of a <a
+            href="https://en.wikipedia.org/wiki/Stock_photography">photographic studio </a>have increasingly been called
+        a photographic agency leaving the term "photographic studio" to refer almost exclusively to the workspace.
+        <br />
+        The history of photographic studios and photography dates back to the 1840s with the invention of processes for
+        recording camera pictures, by Henry Fox Talbot and Louis Daguerre. The earliest photographic studios made use of
+        natural daylight to create photographic portraits. As already used by artists, a northern light with no direct
+        sunlight was favoured.<a href="https://www.instagram.com/venus_pictures_photography/?hl=en">know more</a>
+    </p>
+    <br /><br />
+    <!-- image with alt attribute -->
+    <img src="" alt="Wedding photo" style="border: 1px solid;" width="500px" height="400px">
+    <!-- 6.Order list and un-order list with 3 list items in each list -->
+    <!-- 7.Each list item diffrent text color -->
+    <br />
+    <br />
+    <div class="list_itesm">
+        <span>
+            <div>
+                <h3>Our Services</h3>
+                <ol>
+                    <li>Photography</li>
+                    <li>Vediography</li>
+                    <li>Multimedia</li>
+                </ol>
+            </div>
+        </span>
+        <br />
+        <span>
+            <div>
+                <h3>Our Big Gadgets</h3>
+                <ul>
+                    <li style="color: rgb(98, 174, 245);">4k Vediography</li>
+                    <li style="color: rgb(83, 161, 234);">Drone</li>
+                    <li style="color: rgb(24, 78, 129);">Sliders</li>
+                </ul>
+            </div>
+        </span>
+    </div>
+    <br /><br />
+    <!-- 8.An image tag inside anchor tag,when clicked image it should download the image -->
+    <a href=""
+        download="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/11/Inside-image-Wedding-Photographers6.jpg"><img
+            src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/11/Inside-image-Wedding-Photographers6.jpg"
+            alt=""></a>
+    <!-- 9.A paragraph tag with italic, bold and strike through texts. -->
+    <p class="paragraph">Fearless Photographers is a small family-owned company based in Washington State, USA. <br />
+        <i>We work hard to showcase and celebrate the distinctive wedding photography of our worldwide members. We serve
+            as a global marketplace for wedding photographers seeking couples who truly love photography. </i><br />
+        <b> We see the art of photography as more than capturing a unique and heartfelt moment in time. Photography
+            affects how we remember, captures how we and others experience each other and makes a record for our own
+            family and human history.</b><strike>venky</strike>.
+    </p>
+    <form class="the_form">
+        <h1>For Booking's</h1>
+        <label class="input_name">Gender</label>:
+
+        Men<input type="radio" value="men" name="gender" id="gender" onclick="myfunction(event)">
+        Women<input type="radio" value="women" name="gender" id="gender" onclick="myfunction(event)">
+        other <input type="radio" value="other" name="gender" id="gender" onclick="myfunction(event)"><br />
+
+        <label class="input_name">Contacting for</label>:
+        Marrige<input type="checkbox" id="reason" value="Marrige" onclick="reson(event)">
+        Birthday<input type="checkbox" id="reason" value="birthday" onclick="reson(event)">
+        Party<input type="checkbox" id="reason" value="party" onclick="reson(event)"><br />
+
+        <label class="input_name">Your Name</label>:<input type="text" maxlength="30" id="name"><br />
+        <label class="input_name">Mobile Number</label>:<input type="number" min="10" id="mobilenumber"><br />
+        <label class="input_name">Mail ID</label>:<input type="mail" id="mail"><br />
+        <label class="input_name">Password</label>:<input type="password" minlength="12" id="password"><br />
+        <label class="input_name">Which Date</label>:<input type="date" id="dates" min="2023-01-20"><br />
+    </form>
+    <button onclick="submitform()" class="button">Submit</button>
+
+    <script>
+        var cr = { r: "", a: "", b: "" }
+        var gndr;
+        function myfunction(e) {
+             gndr = e.target.value
+        }
+        function reson(e) {
+            if (e.target.value === "marrige") {
+                cr.r = e.target.value
+            }
+            else if (e.target.value === "birthday") {
+                cr.a = e.target.value
+            }
+            else {
+                cr.b = e.target.value
+            }
+        }
+        function submitform() {
+            // genders = document.getElementById("gender").value
+            reason = document.getElementById("reason").value
+            name = document.getElementById("name").value
+            number = document.getElementById("mobilenumber").value
+            mail = document.getElementById("mail").value
+            password = document.getElementById("password").value
+            date = document.getElementById("dates").value
+
+
+            console.log(gndr)
+            console.log(cr.r+cr.a+cr.b)
+            console.log(name)
+            console.log(number)
+            console.log(mail)
+            console.log(password)
+            console.log(date)
+
+            gndr=document.getElementById("gender").innerHTML=""
+            reason=document.getElementById("reason").innerHTML=""
+            name=document.getElementById("name").innerHTML=""
+            number=document.getElementById("mobilenumber").innerHTML=""
+            mail=document.getElementById("mail").innerHTML=""
+            password=document.getElementById("password").innerHTML=""
+            date=document.getElementById("dates").innerHTML=""
+        }
+           
+    </script>
+</body>
+
+</html>
