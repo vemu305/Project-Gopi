@@ -1,0 +1,210 @@
+.sticky_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #6e6c6c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(12, 12, 12);
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    color: #e54949;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.buttonsMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.generalContcating{
+    height: 40em;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/578fb085a1f2517496903263/b54139c5-2460-fd57-11e8-70a172b63d89.jpg);
+    background-size: cover;
+    display: grid;
+    grid-area: auto;
+    width: 100%;
+    position: relative;
+}
+.subGenaral{
+    width: 30%;
+    height: 40em;
+    position: absolute;
+    left: 10%;
+    background-color: white;
+    padding: 5em;
+    line-height: 3rem;
+  }
+.aboutCompany{
+    height: 300px;
+    background-color: hsl(0, 14%, 99%);
+    
+}
+.theForm{
+    background-image: url(https://images02.nicepage.com/c461c07a441a5d220e8feb1a/04d8bd1fa83d56f9992b3908/fg-min.jpg);
+    height: 600px;
+    width: 70%;
+    background-size: cover;
+    margin: auto;
+
+    
+}
+.aboutSeemore{
+    height: 50em;
+    background-color: #dedcdc;
+}
+.aboutBack{
+    height: 50em;
+    background-color: #f08003;
+    width: 30%;
+    margin-left: 40%;
+    position: absolute;
+}
+.aboutText{
+    position: absolute;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.archiDesign{
+    height: 40em;
+}
+.OrangeSpace{
+    height: 59em;
+    background-color: #f08003;
+    position: relative;
+}
+.orangePhotos{
+    height: 70%;
+    width: 60%;
+    background-size: cover;
+    left: 22%;
+    bottom: 40%;
+    position: inherit;
+
+}
+.secondimage{
+    width: 95px;
+    left: 62%;
+    bottom: 80.82%;
+    position: absolute;
+
+}
+.OrangeGray{
+    height: 50em;
+    background-color: #dedcdc;
+}
+.lastWhite{
+    height: 50em;
+    background-color: #ffffff;
+}
+.footer{
+    height: 15em;
+    background-color: #5b5b5b;
+}
+
+.formWhite{
+    height: 300px;
+    background-color:rgb(255, 255, 255);
+    
+}
+.detailsOfForm{
+    width: 30%;
+    background-color: #f08003;
+    height: 50%;
+    padding: 5%;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 35%;
+   
+}
+.orangeAgiain{
+    background-color: #f08003;
+    height:20em;
+    
+
+}
+.laptopImage{
+    margin-left: 18%;
+    position: relative;
+}
+.laptopText{
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    height: 50%;
+    padding: 4%;
+}
+.imgONabot{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 15%;
+
+}
+
+.wholeBody{
+    
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
