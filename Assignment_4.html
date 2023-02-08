@@ -75,12 +75,12 @@
             </div>
         </div>
     </nav>
-    <h4 class="text">Sell Item</h4>
+    <h4 class="text " style="text-align: center;">Sell Item</h4>
 
     <div class="d-flex flex-wrap-wrap justify-content-center">
         <div class="container-fluid mt-3 w-50 p-5">
             <div>
-                <h5>Select Sell Method</h5>
+                <h5 >Select Sell Method</h5>
                 <div class="d-flex flex-wrap-wrap">
                     <div class="border w-20">Set Price</div>
                     <div class="border w-20">Auction</div>
@@ -118,7 +118,6 @@
                 </div>
                 <h6>Schedule for a future time</h6>
                 <p>You can schedule this listing to only be buyable at a future date. </p>
-                <!-- Default checked -->
                 <label class="switch">
                     <input type="checkbox">
                     <span class="slider round"></span>
@@ -134,7 +133,7 @@
                 <input type="text" placeholder="Digital key, Code to reedenm or link to a file">
 
                 <h6>Privacy</h6>
-                <p>You can keep listing the public, or you can specify one address that's allowed to buy it. </p>
+                <p class="fontss">You can keep listing the public, or you can specify one address that's allowed to buy it. </p>
                 <label class="switch">
                     <input type="checkbox">
                     <span class="slider round"></span>
@@ -143,11 +142,13 @@
             </div>
 
         </div>
-        <div class="container-fluid mt-3 w-50 p-5">
+        <div class="container-fluid mt-3 w-50 p-5 d-flex justify-content-center">
             <div class="p-2">
 
-                <div class="card px-2" style="width: 18rem;">
+                <div class="card px-2" style="width: 21rem;">
                     <h6 class="m-2">Preview your item</h6>
+                    <div class=" border rounded m-2">
+
                     <img class="card-img-top"
                         src="https://tse1.mm.bing.net/th?id=OIP.wOSouRXRL1cAlSS6mVSKfwHaHa&pid=Api&P=0"
                         alt="Card image cap">
@@ -165,14 +166,25 @@
                             <p style="font-size:small;">0 PXR </p>
                             <p style="font-size:small;">0d:0h:0m:0s</p>
                         </div>
-                        <div class=" text-align-end border rounded"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" /></svg> <span class=" ">Image .2560x3200px (5.2 MB)</span>
-                        </div>
                     </div>
                 </div>
+
+                        <div class="border rounded d-flex px-3 text-end"><svg  xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />   </svg>    
+                                <span class="fontForDown">  IMAGE .2560 x 3200px (5.2 MB)</span>
+                        </div>
+                </div>
+                <h6 class="text-sm-center m-4 text-secondary">Auto saved 2 sec back</h6>
+                
+
+                <div class="d-flex flex-wrap-wrap ">
+                    <button type="button" class="btn btn-light w-50 px-2 mx-2">Discard</button>
+                    <button type="button" class="btn btn-warning w-50 px-2mx-2">Sell Item</button>
+                </div>
             </div>
+            
 
 
         </div>
