@@ -1,0 +1,168 @@
+:root {
+  --theme-color: #FA4A0C;
+  --white-text: #FFFFFF;
+  --text-black: #000000;
+  --font-text: 'Poppins', sans-serif;
+  --sub-font: #737373;
+}
+.listdots{
+  list-style: none;
+}
+
+.wholeBody {
+  overflow-x: hidden;
+  font-family: var(--font-text);
+}
+
+.homeimage {
+  background-image: url("./images/homeBackground.png");
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.playstoreButton {
+  background-color: var(--theme-color);
+  color: #FFFFFF;
+  border-radius: 25px;
+  width: 180px;
+  height: 70px;
+  font-size: x-large;
+  border: var(--theme-color) 2px solid;
+}
+
+.appstoreButton {
+  background-color: transparent;
+  color: #FFFFFF;
+  border-radius: 25px;
+  width: 180px;
+  height: 70px;
+  font-size: x-large;
+  border: var(--white-text) 2px solid;
+
+
+}
+
+.demophones {
+  position: absolute;
+  bottom: -90%;
+  left: 25%;
+
+}
+
+.demophones2 {
+  position: absolute;
+  bottom: -70%;
+  left: 49%;
+
+}
+
+.imgdiv {
+  height: 100%;
+}
+
+.textareastart {
+  border-top: 1px solid gray;
+}
+
+.createAccountText {
+  margin-top: 10%;
+}
+
+.orangeText {
+  color: var(--theme-color);
+}
+
+.createAccountText2 {
+  padding-left: 15%;
+  margin-top: 20%;
+
+}
+
+.playstoreButtonfooter {
+  background-color: var(--theme-color);
+  color: #FFFFFF;
+  border-radius: 7px;
+  width: 180px;
+  height: 70px;
+  font-size: x-large;
+  border: var(--theme-color) 2px solid;
+}
+
+.appstoreButtonfooter {
+  background-color: transparent;
+  color: #FFFFFF;
+  border-radius: 7px;
+  width: 180px;
+  height: 70px;
+  font-size: x-large;
+  border: var(--white-text) 2px solid;
+}
+
+.homeimagefooter {
+  background-image: url("./images/Rectangle\ 47.png");
+  height: 80%;
+  background-size: cover;
+  padding-top: 10%;
+
+}
+
+.lastfooter {
+  margin: 10%;
+}
+
+.orangelogo {
+  color: var(--theme-color);
+  font-size: xx-large;
+  padding-left: 5%;
+
+}
+
+.lastfooter:hover {
+  border: var(--theme-color) 2px solid;
+}
+
+.mainitems {
+  color: var(--theme-color);
+
+}
+
+.mainitems :hover {
+  color: var(--text-black);
+}
+
+.allh4 {
+  font-style: medium;
+  color: var(--sub-font);
+}
+
+@media (max-width:1000px) {
+  .demophones {
+      width: 110%;
+      left: -20%;
+      bottom: -130%;
+  }
+
+  .demophones2 {
+      width: 50%;
+      bottom: -108%;
+  }
+
+  .homeimage {
+      background-image: url("./images/homeBackground.png");
+      height: 120%;
+      position: relative;
+      background-size: cover;
+  }
+
+  .wholeBody {
+      text-align: center;
+      overflow-x: hidden;
+
+  }
+  .smallimgs{
+      width: 200%;
+  }
+  
+
+}
