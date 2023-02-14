@@ -1,0 +1,53 @@
+:root{
+    --theme-color:#FA0339;
+    --text-color:#FFFFFF;
+    --mgr-color:#26DC00;
+    --font-style:'Poppins', sans-serif;
+
+}
+.backroundimg{
+    background-image: url(./images/FS_ibs_XoAAMDpU\ 1\ \(1\).png);
+    height:750px;
+    background-size: cover;
+    color: var(--text-color);
+    text-align: center;
+    font-family: var(--font-style);
+
+}
+.redbutton{
+    background-color: var(--theme-color);
+}
+.redbuttons{
+    background-color: var(--theme-color);
+    width: 20%;
+    border-radius: 1px;
+    height: 50px;
+
+}
+.transbutton{
+    background-color: transparent;
+    color: var(--text-color);
+}
+/* .inputborder{
+    width: 18%;
+    padding: 1%;
+    border: var(--text-color) 1PX solid;
+    border-radius: 10px;
+} */
+.iconsbox{
+    width: 2%;
+    height: 2%;
+    background-color: var(--theme-color);
+    margin: 1%;
+}
+.greentext{
+    color: var(--mgr-color);
+}
+.icon {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    color: var(--text-color);
+    background-color: transparent;
+  }
+
