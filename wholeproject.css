@@ -1,0 +1,777 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.paraText{
+  color: #9599BB;
+}
+.iconsColor{
+  color: #5846e0;
+}
+.cardBlueColor{
+  background-color: #5846e0;
+  color: white;
+}
+.cardBlueColor:hover{
+  border: 1px solid #5846e0;
+}
+
+
+#sec1{
+  background-color: #212062;
+  background-image: linear-gradient(to right, #212062 , #10153d);
+  overflow-x: hidden;
+}
+#sec1 .img1{
+  width: 40px;
+  height: 45px;
+}
+#sec1 h1{
+  font-weight: 700;
+}
+#sec1 p{
+  padding: 0;
+}
+#sec1 .nt li a{
+  color: rgb(195, 195, 195);
+}
+#sec1 .nt li a:hover{
+  color: white;
+}
+#sec1 .log a{
+  border: 2px solid #5846e0;
+}
+#sec1 .log a:hover{
+  border: 2px solid #5846e0;
+  background-color: #5846e0;
+}
+#sec1 .sign a{
+  border: 2px solid #5846e0;
+  background-color: #5846e0;
+}
+#sec1 .sign a:hover{
+  border: 2px solid #5846e0;
+  background-color: #ffffff00;
+}
+#sec1 .get a:hover{
+  color: #5846e0;
+}
+#sec1 h1{
+  font-size: 2rem;
+}
+#sec1 .coln{
+  position: relative;
+}
+#sec1 .coln div{
+  border: 2px solid #5846e047;
+  width: 25%;
+  height: 25%;
+  background-color: rgba(124, 157, 247, 0.052);
+}
+#sec1 .graph{
+  position: absolute;
+  top: 0;
+  left: 15%;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation: fadeIn1 2s;
+}
+#sec1 .card{
+  position: absolute;
+  top: 18%;
+  right: 15%;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation: fadeIn2 2s;
+}
+#sec1 .doll{
+  position: absolute;
+  bottom: 16%;
+  left: 7%;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation: fadeIn3 2s;
+}
+@keyframes fadeIn1 {
+  0%   { opacity: 0;left: 15%; top:30%;}
+  100% { opacity: 1;left: 15%; top:0px;}
+}
+@keyframes fadeIn2{
+  0%   { opacity: 0;right: 15%;top:40%;}
+  100% { opacity: 1;right: 15%; top:18%;}
+}
+@keyframes fadeIn3 {
+  0%   { opacity: 0;left: 7%; bottom: 0%;}
+  100% { opacity: 1;left: 7%; bottom: 16%;}
+}
+#sec1 .box div{
+  border: 2px solid gray;
+  width: 150px;
+  height: 150px;
+}
+#sec1 .box div:hover{
+  border: 2px solid #5846e0;
+}
+/* section 2.............................................................................................. */
+
+#section2 .heading1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #051c1d;
+
+}
+#section2 .btn-sign-up:hover{
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #5846e0;
+    text-align: center;
+    
+
+}
+#section2 .card:hover {
+border: 2px solid #5846e0;   
+}
+#section2 .bi-unlock-fill {
+    color :#5846e0;
+} 
+
+#section2 .bi-arrow-repeat {
+    color :#5846e0;
+}
+#section2 .bi-qr-code {
+    color :#5846e0;
+}
+#section2 .container{
+    font-family: 'Poppins', sans-serif;
+    
+}
+#section2 .card {
+    height: 230px;
+    justify-content: center;
+    text-align: center;
+}
+#section2 .borderBlue{
+  border: 1 px solid #9599BB;
+}
+#section2 .borderBlue:hover{
+  border: 1px solid #5846e0;
+  box-shadow: #5846e0 1px 1px 3px 1px;
+}
+
+/* section 3.............................................................................................. */
+
+#section3.fontStylew{
+    font-family: 'Poppins', sans-serif;
+
+}
+#section3.btn {
+    background-color: rgb(74, 74, 219);
+    font-size: small;
+    height: 60px;
+    width: 150px;
+    
+}
+#section3 .btn-sign-up{
+background-color: #5846e0 !important;
+color: #fff !important;
+padding: 3%;
+}
+#section3 .btn-sign-up:hover{
+  background-color: #faf9fb !important;
+  color: #030303 !important;
+  border: 1px solid #5846e0;
+  padding: 3%;
+  }
+#section3.btn-sign-up:hover{
+    color: #000 !important;
+    background-color: #fff !important;
+    border-color: #7d0be9;
+    
+}
+#section3 .mt-5 {
+    margin-top: 5rem !important;
+}
+#section3 .font {
+    animation: 2s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  #section3 .text-secondary {
+    animation: 4s anim-lineUp ease-out ;
+  
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  #section3 .btn-sign-up {
+    animation: 6s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  
+
+  #section3 .main{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* section 4.............................................................................................. */
+
+
+#section4 .lastCard{
+  background-color: #5846e0;
+}
+#section4 .iconColor{
+  color: #5846e0;
+}
+#section4 .but:hover{
+    background-color:white;
+    color: black;
+    width: 170px;
+    height: 70px;
+    
+    }
+    #section4 .but{
+        width: 170px;
+        height: 70px; 
+    }
+    #section4 .p1{
+        opacity: 50%;
+    }
+    
+    #section4 .card:hover {
+      border-color: rgb(91, 24, 140);
+  }
+  
+  #section4 .iconColorWhite:hover {
+    color: #5846e0;
+}
+    
+    #section4 .mohan{
+        font-family: 'Poppins', sans-serif;
+    }
+    #section4 .i1{
+        background-color: blue;
+    }
+    #section4 .an{
+        
+            animation: 2s anim-lineUp ease-out ;
+          }
+          @keyframes anim-lineUp {
+            0% {
+              opacity: 0;
+              transform: translateY(80%);
+            }
+            20% {
+              opacity: 0;
+            }
+            50% {
+              opacity: 1;
+              transform: translateY(0%);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0%);
+            }
+          }
+
+
+/* section 5.............................................................................................. */
+
+#section5 .img
+{
+    padding-left: 50px;
+}
+
+#section5 .text
+{
+    padding-top: 15%;
+}
+
+
+
+#section5 #font
+{
+    font-family: 'Poppins', sans-serif;   
+}
+
+#section5 p
+{
+    padding-right: 50px;
+    opacity: 50%;
+    font-size: 15px;
+}
+
+
+#section5 .btn
+{
+    background-color: #5846e0;
+    border-radius: 0px;
+    color: white;
+    height: 60px;
+    padding-inline: 20px;
+    font-size: 15px;
+
+
+}
+
+#section5 .btn:hover
+{
+    background-color: white;
+    color: black;
+    border-color: #5846e0;
+
+}
+
+
+#section5 .text1
+{
+    animation: 2s anim-lineUp ease-out ;
+    
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: .5;
+      transform: translateY(0%);
+    }
+  }
+
+ 
+  #section5 .text2
+{
+    animation: 4s anim-lineUp ease-out ;
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: .5;
+      transform: translateY(0%);
+    }
+  }
+
+  #section5 .btn
+{
+    animation: 6s anim-lineUp ease-out ;
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+/* section 6.............................................................................................. */
+
+  #section6 .col-md-2 .btn {
+    background-color: rgb(88, 19, 237);
+    font-size:medium;
+    color: white;
+}
+#section6 .col-md-2 .btn:hover {
+    color: black;
+    background-color: white;
+    border-color: rgb(115, 50, 205);
+}
+#section6 .section6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#section6 .image {
+    display: flex;
+    flex-wrap: wrap;
+}
+#section6 .card-body span{
+    font-size:150%;
+    color:orange;
+    border-radius: 15px;
+}
+#section6 .card-text {
+    color: rgb(163, 176, 189);
+    font-weight: 600;
+    font-style: italic;
+}
+#section6 .card-text:hover {
+    color: indigo;
+}
+#section6 .txt {
+    color: rgb(163, 176, 189);
+    font-weight: 600;
+}
+#section6 .card:hover {
+    border-color: rgb(91, 24, 140);
+}
+#section6 .col-2 button{
+    color: white;
+    background-color: blue;
+}
+#section6 .col-2 button:hover{
+    color: black;
+    background-color: white;
+}
+#section6 .bi-quote {
+    color: slategray;
+    transform: rotate(3.142rad);
+}
+#section6 .para {
+    color: rgb(148, 100, 182);
+}
+#section6 .info {
+    border: 2px solid lightgray;
+    width: 38%;
+    padding: 10px;
+}
+#section6 .txtt {
+    animation: 3s anim-lineUp ease-out ;
+    
+  }
+  
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+
+
+/* section 7.............................................................................................. */
+
+#s7 .wholeBody{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+#s7 .mainText:hover{
+    color: #5846e0;
+}
+ #s7 .articles{
+    text-align: center;
+    color: #051C1D;
+}
+#s7 .p{
+  color: #9599BB;;
+}
+#s7 .para{
+    text-align: center;
+    color: #9599BB;
+}
+#s7 .para
+    {
+        animation: 2s anim-lineUp ease-out ;
+      }
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+
+      #s7 .readmore:hover{
+    color: #051C1D;
+}
+#s7 .imagess:hover{
+    transform: rotate(2deg);
+    opacity: 0.7; 
+ 
+    
+}
+#s7 .imagessz:hover{
+    transform: rotate(2deg);
+    opacity: 0.7;    
+}
+#s7 .cardForHover{
+  width: 400px;
+  border: 1px solid #9599BB ;
+}
+
+/* section 8.............................................................................................. */
+
+
+#section8 .textWhite :hover{
+  color: #5846e0;
+}
+#section8 .bgColorx{
+
+
+    background: #10153D;  
+    background: -webkit-linear-gradient(to right,   #051C1D,);
+    background: linear-gradient(to right,   #051C1D); 
+    position: relative;
+    height: 60%;
+    }
+ #section8 .rx1{
+    position: relative;
+    bottom: 50px;
+
+}
+#section8 .sign a{
+    border: 2px solid #5846e0;
+    background-color: #5846e0;
+}
+#section8 .sign a:hover{
+    border: 2px solid #5846e0;
+    background-color: #ffffff00;
+}
+#section8 .get:hover{
+    color: #5846e0;
+}
+
+#section8 .bodyfont{
+
+
+font-family: sans-serif
+}
+
+#section8 .para{
+    
+    color: #9599BB;
+}
+    
+#section8 .an{
+   
+        animation: 2s anim-lineUp ease-out ;
+      }
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+
+
+
+/* section 9.............................................................................................. */
+
+      /* / footer style / */
+#footer .p {
+    color: #95999CBB;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer .icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+    padding-right: 10%;
+
+}
+
+
+#footer .iconColor {
+    color: #5845e5;
+}
+
+#footer span {
+    color: #95999CBB;
+    font-family: 'Poppins', sans-serif;
+}
+
+#footer h3 {
+    color: #051C1D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-bottom: 5%;
+}
+
+#footer .allINFO {
+    color: #95999CBB;
+  font-family: 'Poppins', sans-serif;
+}
+
+#footer .lineSpace {
+    margin-top: 10%;
+}
+
+#footer .lastFooter {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#footer .footerBorder {
+    color: #95999CBB;
+    font-family: 'Poppins', sans-serif;
+    border-top: rgb(105, 103, 103) 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#footer .homes:hover {
+    color: #5845e5;
+}
+
+#footer .container{
+  color: #95999CBB;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+@keyframes bounce {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+
+    60% {
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px)
+    }
+}
+
+#footer .iconColor {
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#footer .iconColor:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+#footer .fonts{
+  font-family: 'Poppins', sans-serif;
+  color: #9599BB;
+}
+
+#footer .mapbox{
+  width: 200px;
+  height: 100%;
+  border: 1px solid black;
+}
+
+
+/* / footer end / */

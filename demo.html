@@ -1,0 +1,55 @@
+<html>
+    <head>
+    <title>task3</title>
+    <style>
+        .cotainer
+        {
+            display: grid;
+            grid-area: auto;
+            height: 100%;
+            gap: 10px;
+        }
+        .header{
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-column: 1/13;
+        }
+        .sidebar{
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area:2/1/8/3;
+        }
+        .navigate{
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area: 2/3/3/11;
+        } 
+        .main{
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area:3/3/8/11 ;
+        }
+        .ads{
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area: 2/11/8/13;
+        }
+       .footer {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-column:1/13 ;
+        } 
+    </style>
+</head>
+<body>
+    <div class="cotainer" >
+        <div class="header">header</div>
+        <div class="sidebar">sidebar</div>
+        <div class="navigate">navigate</div>
+        <div class="ads">ads</div>
+        <div class="main">main</div>
+        <div class="footer">footer</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,154 @@
+:root{
+    --mainfont-color:#FFC010;
+    --text-color: #ffffff;
+    --title-font: 'Play', sans-serif;
+    --body-font: 'Play', sans-serif; 
+    --icon-font: 'Font Awesome 5 Pro';
+    --theme-color2: #FFC010;
+    --button-color:#ff7e02;
+    --theme-color: #FF7E02;
+    --theme-color2: #FFC010;
+    --title-color: #1C1121;
+    --body-color: #6C6C6C;
+    --dark-color: #1C1C1C;
+    --smoke-color: #f3f6f7;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --white-light-color: #c3c3c3;
+    --yellow-color: #fec624;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --border-color: rgba(0,0,0,0.10);
+    --title-font: 'Play', sans-serif;
+    --body-font: 'Play', sans-serif; 
+    --icon-font: 'Font Awesome 5 Pro';
+    --main-container: 1640px;
+    --container-gutters: 1.5rem;
+    --section-space: 120px;
+    --section-space-mobile: 80px;
+    --section-title-space: 60px;
+    --ripple-ani-duration: 5s;
+  
+}
+
+
+.backgroundImage{
+    background-image: url(../images/team-banner-img.png);
+    background-size: cover;
+    height: 100%;
+}
+.backgroundBlack{
+    background-color: #0000004a;
+    height: 100%;
+
+}
+
+
+
+
+#section2 .section2bg{
+    width: 100%;
+    height: 100%;
+    background-image: url();
+}
+#section2 .upperCase{
+    font-weight: 700;
+    color: var(--mainfont-color);
+    padding-top: 10%; 
+    font-family: var(--body-font); 
+}
+#section2 .upperCasewhite{
+    font-weight: 700;
+    color: var(--white-color);
+   font-family: var(--body-font); 
+
+
+}
+
+#section{
+height: 100%;
+}
+#section2 p{
+    color: var(--text-color);
+    font-family: var(--body-font); 
+
+}
+#section2 .sec-shape{
+    line-height: 1;
+}
+#section2 .sec-shape_bar:first-child {
+    margin-left: 5px;
+}
+
+
+#section2 .sec-shape_bar:first-child {
+    margin-left: 5px;
+}
+#section2 .sec-shape_bar {
+    display: inline-block;
+    background-color: var(--theme-color2);
+    height: 6px;
+    width: 35px;
+    margin-right: 13px;
+    -webkit-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+#section2 .sec-shape_barOrange {
+    display: inline-block;
+    background-color: var(--button-color);
+    height: 6px;
+    width: 35px;
+    margin-right: 13px;
+    -webkit-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+#section2 .buttonOrange{
+    background-color: var(--button-color);
+    border: var(--button-color)  2px solid ;
+    border-radius: 10px;
+    padding: 2%;
+    color: var(--text-color);
+    font-family: var(--body-font); 
+
+}
+
+#section1-2 body{
+    background-color:black;
+    font-family: var(--body-font); 
+}
+
+#section1-2 .last-fire{
+    padding: 8rem 0;
+  }
+  #section1-2 .fireball{
+    position: relative;
+    margin-top: -7rem;
+  }
+#section1-2 .fireball .col-lg-10{
+    background: rgba(70, 0, 1, 0.4);
+    box-shadow: 0px 0px 20px #FF7E02;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 3px solid #FF7E02;
+    padding: 3rem;
+  }
+  
+#section1-2 .soccer{
+    position: absolute;
+    top: -8%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+
+#section1-2 .index{
+    background: #FF7E02;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+  }
+  
